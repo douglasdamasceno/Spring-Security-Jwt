@@ -11,11 +11,6 @@ public class ApiJWTController {
 		return "Welcome to My Spring Boot Web Api";
 	}
 	
-	@GetMapping("/users")
-	public String users() {
-		return "Authorized user";
-	}
-	
 	@GetMapping("/managers")
 	public String managers() {
 		return "Authorized manager";
